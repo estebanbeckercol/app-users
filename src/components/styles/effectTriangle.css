@@ -1,0 +1,130 @@
+.container__background-triangule{
+    max-width: 1200px;
+    height: 600px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ .triangle{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transform: rotate(45deg);
+ }
+ .triangle1{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #0ea1e6, #1e67c7, rgb(76, 2, 224));
+    right: 100px;
+    top: 130px;
+    animation: t1 30s ease infinite;
+ }
+ .triangle2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #d6600b, #98eb08, rgb(239, 15, 7));
+    top: 450px;
+    left: 120px;
+    animation: t2 35s ease infinite;
+ }
+ .triangle3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #a90ee6, #e508b5, rgb(216, 2, 55));
+    left: 200px;
+    animation: t3 40s ease infinite;
+ }
+ .triangle4{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #0ee619, #f43905, rgb(176, 224, 2));
+    right: 450px;
+    top: 40px;
+    animation: t4 30s ease infinite;
+ }
+ .triangle5{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #d52b2b, #ff5100, rgb(255, 1, 1));
+    left:500px ;
+    top: 400px;
+    animation: t5 32s ease infinite;
+ }
+ .triangle6{
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #8400f8, #5f0358, rgb(224, 2, 98));
+    right: 450px;
+    top: 450px;
+    animation: t6 38s ease infinite;
+ }
+ .triangle7{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #00f800, #228317, rgb(4, 108, 9));
+    right: 200px;
+    top: 600px;
+    animation: t7 30s ease infinite;
+ }
+ @keyframes t1 {
+    0%   {transform: translateY(-100px) rotateZ(0deg);}
+    25%  {transform: translateX(100px) rotateZ(180deg);}
+    50%  {transform: translateY(100px) rotateZ(180deg);}
+    75%  {transform: translateX(-100px) rotateZ(360deg);}
+    100% {transform: translateY(-100px) rotateZ(0deg);}
+ 
+ }
+ @keyframes t2 {
+    0%   {transform: translateY(-100px) rotateZ(0deg);}
+    25%  {transform: translateX(100px) rotateZ(180deg);}
+   
+    75%  {transform: translateX(-100px) rotateZ(360deg);}
+    100% {transform: translateY(-100px) rotateZ(0deg);}
+ }
+ @keyframes t3 {
+    0%   {transform: translateY(-100px) rotateZ(0deg);}
+    25%  {transform: translateX(100px) rotateZ(180deg);}
+    50%  {transform: translateY(100px) rotateZ(180deg);}
+    100% {transform: translateY(-100px) rotateZ(0deg);}
+ 
+ }
+ @keyframes t4 {
+    0%   {transform: translateY(-100px) rotateZ(0deg);}
+    25%  {transform: translateX(100px) rotateZ(180deg);}
+    50%  {transform: translateY(100px) rotateZ(180deg);}
+    75%  {transform: translateX(-100px) rotateZ(360deg);}
+    100% {transform: translateY(-100px) rotateZ(0deg);}
+ 
+ }
+ @keyframes t5 {
+    0%   {transform: translateY(-100px) rotateZ(0deg);}
+    50%  {transform: translateY(100px) rotateZ(180deg);}
+    75%  {transform: translateX(-100px) rotateZ(360deg);}
+    100% {transform: translateY(-100px) rotateZ(0deg);}
+ 
+ }
+ @keyframes t6 {
+    0%   {transform: translateY(-100px) rotateZ(0deg);}
+    25%  {transform: translateX(100px) rotateZ(180deg);}
+    50%  {transform: translateY(100px) rotateZ(180deg);}
+    75%  {transform: translateX(-100px) rotateZ(360deg);}
+    100% {transform: translateY(-100px) rotateZ(0deg);}
+ 
+ }
+ @keyframes t7 {
+    0%   {transform: translateY(-100px) rotateZ(0deg);}
+    25%  {transform: translateX(100px) rotateZ(180deg);}
+    50%  {transform: translateY(100px) rotateZ(180deg);}
+    75%  {transform: translateX(-100px) rotateZ(360deg);}
+    100% {transform: translateY(-100px) rotateZ(0deg);}
+ 
+ }

@@ -1,0 +1,15 @@
+.app__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:2em ;
+    justify-content: center;
+    
+}
+.app__title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:#0071e3;
+    text-align:center;
+    margin-top: 30px;
+}
